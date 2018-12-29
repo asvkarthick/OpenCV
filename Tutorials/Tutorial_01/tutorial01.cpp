@@ -10,7 +10,7 @@ using namespace cv;
 
 int main(void)
 {
-    cv::Mat image = imread("../../images/lena.bmp", CV_LOAD_IMAGE_COLOR);
+    cv::Mat image = imread("../../images/lenna.bmp", CV_LOAD_IMAGE_COLOR);
     if(!image.data)
     {
         std::cerr << "Could not open image file" << std::endl;
