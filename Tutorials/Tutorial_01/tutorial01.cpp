@@ -2,6 +2,14 @@
 // Compile and build this program with
 // g++ tutorial01.cpp -o tutorial01 `pkg-config --cflags --libs opencv`
 
+// For CMake use the following steps
+// mkdir build
+// cd build
+// cmake ..
+// make
+// cd ..
+// ./build/HelloWorld
+
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <iostream>
