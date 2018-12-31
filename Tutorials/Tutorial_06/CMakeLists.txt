@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(tutorial06)
+find_package(OpenCV REQUIRED)
+add_executable(tutorial06 tutorial06.cpp)
+target_link_libraries(tutorial06 ${OpenCV_LIBS})
