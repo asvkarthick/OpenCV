@@ -5,6 +5,13 @@
 // Compile and build this program with
 // g++ tutorial04.cpp -o tutorial04 `pkg-config --cflags --libs opencv`
 
+// To run with cmake follow the below steps
+// mkdir build
+// cd build
+// cmake ..
+// make
+// ./tutorial04
+
 #include "opencv2/opencv.hpp"
 #include <iostream>
  
