@@ -7,6 +7,14 @@
 // Run this program with
 // ./tutorial05
 
+// To run with cmake follow the below steps
+// mkdir build
+// cd build
+// cmake ..
+// make
+// cd ..
+// ./build/tutorial05
+
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include "opencv2/imgproc/imgproc.hpp"
