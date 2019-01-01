@@ -48,9 +48,6 @@ int main(void)
         for(j = 0; j < width; j++)
         {
             inv_image.at<unsigned char>(i, j) = 255 - inv_image.at<unsigned char>(i, j);
-            // inv_image(i, j)[0] = 255 - inv_image(i, j)[0];
-            // inv_image(i, j)[1] = 255 - inv_image(i, j)[1];
-            // inv_image(i, j)[2] = 255 - inv_image(i, j)[2];
         }
     }
     double end = (double) getTickCount();
