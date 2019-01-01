@@ -42,6 +42,7 @@ int main(void)
 
     int i, j;
 
+    double start = (double) getTickCount();
     for(i = 0; i < height; i++)
     {
         for(j = 0; j < width; j++)
@@ -52,6 +53,9 @@ int main(void)
             // inv_image(i, j)[2] = 255 - inv_image(i, j)[2];
         }
     }
+    double end = (double) getTickCount();
+    double t = (end - start) / getTickFrequency();
+    std::cout << "Time taken to convert RGB to grayscale = " << t << std::endl;
 
     namedWindow("Inverted Image", WINDOW_AUTOSIZE);
     imshow("Inverted Image", inv_image);
