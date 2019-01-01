@@ -20,9 +20,15 @@ using namespace cv;
 
 int main(void)
 {
-    Mat m(2, 2, CV_8UC3, Scalar(0, 0, 255));
+    Mat M(2, 2, CV_8UC3, Scalar(0, 0, 255));
+    Mat E = Mat::eye(4, 4, CV_8UC1);
+    Mat O = Mat::ones(2, 2, CV_8UC1);
+    Mat Z = Mat::zeros(2, 2, CV_8UC1);
 
-    std::cout << m << std::endl;
+    std::cout << "M = " << std::endl << M << std::endl;
+    std::cout << "E = " << std::endl << E << std::endl;
+    std::cout << "O = " << std::endl << O << std::endl;
+    std::cout << "Z = " << std::endl << Z << std::endl;
 
     return 0;
 }
