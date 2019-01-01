@@ -1,5 +1,6 @@
 // This program creates Mat object 'm' with predefined values and
 // prints the values on the console
+// This helps a lot in debugging OpenCV programs
 
 // Compile and build this program with
 // g++ tutorial07.cpp -o tutorial07 `pkg-config --cflags --libs opencv`
